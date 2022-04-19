@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,35 +21,44 @@
             <img src="images/selo.svg" alt="Selo Rockeseat" />
           </span>
           <img
+            id="userImage"
             src="https://github.com/GuilhermeAquinoDB.png"
             alt="Foto Pessoal"
           />
         </div>
 
-        <h1>Guilherme de Aquino</h1>
-        <a href="https://github.com/GuilhermeAquinoDB" target="_blank">
-          <img src="images/githubIcon.svg" alt="ícone" />
-          guilherme_de_aquino
+        <h1 id="userName">Guilherme de Aquino</h1>
+        <a
+          id="userLink"
+          href="https://github.com/GuilhermeAquinoDB"
+          target="_blank"
+        >
+          <img src="images/githubIcon.svg" alt="ícone github" /><span
+            id="userLogin"
+            >guilherme_de_aquino</span
+          >
         </a>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <p id="userBio">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a href="https://youtube.com" target="_blank">
               <img src="images/youtube.svg" alt="ícone Youtube" />
             </a>
           </li>
-          <li>
+          <li class="facebook">
             <a href="https://facebook.com" target="_blank">
               <img src="images/facebook.svg" alt="ícone Facebook" />
             </a>
           </li>
-          <li>
+          <li class="instagram">
             <a href="https://instagram.com" target="_blank">
               <img src="images/instagram.svg" alt="ícone instagram" />
             </a>
           </li>
-          <li>
+          <li class="twitter">
             <a href="https://twitter.com" target="_blank">
               <img src="images/twitter.svg" alt="ícone twitter" />
             </a>
@@ -57,5 +66,6 @@
         </ul>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
