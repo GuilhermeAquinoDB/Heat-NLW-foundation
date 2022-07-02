@@ -1,9 +1,9 @@
 const linksSocialMedia = {
   github: 'GuilhermeAquinoDB',
-  youtube: 'guilhermeelmago10',
+  youtube: 'c/RocketSeat',
   facebook: 'mc.aquino.52',
   instagram: 'guilherme_de_aquino',
-  twitter: 'guilherme_de_aquino'
+  twitter: ''
 }
 
 function changeSocialMediaLinks() {
